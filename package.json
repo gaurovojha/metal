@@ -1,0 +1,34 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "Gaurov's First React App",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src --out-dir dist",
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prop-type": "0.0.1",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.32.0",
+    "react-bootstrap-form": "^0.1.4-beta6",
+    "react-bootstrap-table": "^4.3.1",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "bootstrap": "^3.3.7",
+    "react-router-dom": "^4.2.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
